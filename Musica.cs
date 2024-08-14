@@ -14,7 +14,7 @@
 
     public void ExibirFichaTecnica()
     {
-        Console.WriteLine($"Name: "+ Nome);
+        Console.WriteLine($"Nome: "+ Nome);
         Console.WriteLine($"Artista: " + Artista);
         Console.WriteLine($"Duração: " + Duracao);
 
