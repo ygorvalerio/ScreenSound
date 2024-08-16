@@ -20,10 +20,10 @@
 
         if (Disponivel)
         {
-            Console.WriteLine($"Disponivel no Plano");
+            Console.WriteLine($"Disponivel no Plano!");
         }
         else {
-            Console.WriteLine("Adquira o Plano Plus+");
+            Console.WriteLine($"Adquira o Plano Plus+");
         }
     }
 
