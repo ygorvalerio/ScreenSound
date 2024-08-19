@@ -16,7 +16,7 @@ public string Nome { get; set; }
         Console.WriteLine($"Discografia da banda {Nome}");
         foreach (Album album in albums)
         {
-            Console.WriteLine($"Àlbum: {album.Nome} ({album.DuracaoTotal})");
+            Console.WriteLine($"Àlbum: {album.Nome} \nDuração: {album.DuracaoTotal} Minutos");
         }
     }
 
