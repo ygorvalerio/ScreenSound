@@ -25,7 +25,7 @@ class Podcats
     {
         Console.WriteLine($"Podcast {Nome} apresentado por {Hosts} /n");
 
-        foreach (Episodio episodio in episodios)
+        foreach (Episodio episodio in episodios.OrderBy(n => n.Ordem))
         {
             Console.WriteLine(episodio.Resumo);
         }
